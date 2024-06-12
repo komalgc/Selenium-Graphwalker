@@ -1,0 +1,72 @@
+{
+  "models": [
+    {
+      "edges": [
+        {
+          "id": "f0dcaaf9-a80b-458b-9a20-6caef0dfd209",
+          "name": "goToLoginPage",
+          "sourceVertexId": "16bf58b6-d63d-4d58-a548-5f946286fd92",
+          "targetVertexId": "4bfef223-c313-4dc8-9967-64f05a6ddbf9"
+        },
+        {
+          "id": "29cbcf64-2c0d-4757-a166-4792f4fa3163",
+          "name": "goToHomePageforCustomer",
+          "sourceVertexId": "4bfef223-c313-4dc8-9967-64f05a6ddbf9",
+          "targetVertexId": "1142ad5a-7e71-4f8a-979b-66f49d811b9f"
+        },
+        {
+          "id": "b40d5f38-4518-43c5-ae1f-45a772bdf243",
+          "name": "goToLogoutPage",
+          "sourceVertexId": "1142ad5a-7e71-4f8a-979b-66f49d811b9f",
+          "targetVertexId": "830f7761-52ce-4511-84ac-94cdb200a095"
+        },
+        {
+          "id": "3bf786dc-f8be-4945-8e4b-1e611db61145",
+          "name": "goToLoginPagefromLogoutPage",
+          "sourceVertexId": "830f7761-52ce-4511-84ac-94cdb200a095",
+          "targetVertexId": "4bfef223-c313-4dc8-9967-64f05a6ddbf9"
+        }
+      ],
+      "generator": "random(edge_coverage(100))",
+      "id": "dfceee39-44d3-49c4-898e-aefd5c7175c4",
+      "name": "Wikilogin",
+      "startElementId": "16bf58b6-d63d-4d58-a548-5f946286fd92",
+      "vertices": [
+        {
+          "id": "16bf58b6-d63d-4d58-a548-5f946286fd92",
+          "name": "Start",
+          "properties": {
+            "x": 349.892604097651,
+            "y": 185.45885897301605
+          }
+        },
+        {
+          "id": "4bfef223-c313-4dc8-9967-64f05a6ddbf9",
+          "name": "VerifyLoginPage",
+          "properties": {
+            "x": 356,
+            "y": 464
+          }
+        },
+        {
+          "id": "1142ad5a-7e71-4f8a-979b-66f49d811b9f",
+          "name": "VerifyHomePageforCustomer",
+          "properties": {
+            "x": 370,
+            "y": 775
+          }
+        },
+        {
+          "id": "830f7761-52ce-4511-84ac-94cdb200a095",
+          "name": "VerifyLogoutPage",
+          "properties": {
+            "x": 841,
+            "y": 413
+          }
+        }
+      ]
+    }
+  ],
+  "selectedModelIndex": 0,
+  "selectedElementId": null
+}
